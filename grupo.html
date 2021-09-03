@@ -7,20 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Con la línea siguiete se informa en cual carpera están las imágenes -->
     <link rel="shortcut icon" href="imagenes/favicon.png" type="image/png"/>
+    <!-- con esta línea se quiere llamar al archivo .css que contiene los estilos que se van a crear -->
+    <link rel="stylesheet" href="grupo.css">
     <title>Quienes somos IoT</title>
+    <!-- Con la etiqueta style se le da los atributos o estilos a las propiedades de las diferentes opciones como h1, p, et. -->
+    
+
+
 </head>
 <body>
     <h1>Grupo de desarrolladores:</h1>
-    <FONT FACE="arial, courier" SIZE=4 COLOR="blue">
+    <FONT FACE="arial, courier" SIZE=10px COLOR="blue">
         Aldrin Leal</FONT>
     <br>
     <!-- la etiqueta alt sirve apra colocarle texto a las imágenes en caso de no encontrarla en la dirección indicada -->
     
-    <p><img src="imagenes/aldrin.png" alig ="right" alt="imagen de Aldrín" width="120px" height="120px"/>
+    <p class="aldrin"><img src="imagenes/aldrin.png" alig ="right" alt="imagen de Aldrín" width="120px" height="120px"/>
         Aldrin es ingeniero informático oriundo de Brasil. Desde hace 7 años vive en la ciudad de Medellín,
         <br> 
         donde ha tenido la oportunidad de convertise en paisa.        
     </p>
+
+    <h2 class="text">Prueba div + h2</h2>
+    <div class="text">
+        <p>prueba div + h2</p>
+    </div>
 
     <!-- Módulo de Sebastián Moná -->
     
@@ -28,7 +39,7 @@
         Sebastián Moná</FONT>
     <br>
         
-    <p><img src="imagenes/Sebastian.png" alt="imagen de Sebastian" width="120px" height="120px"/>
+    <p class="mona"><img src="imagenes/Sebastian.png" alt="imagen de Sebastian" width="120px" height="120px"/>
         Sebastián es ingeniero en instrumentación y control,
         <br>
         hoy en día hace parte de fabricato como ingeniero de mantenimiento. 
@@ -39,7 +50,7 @@
     <FONT FACE="arial, courier" SIZE=4 COLOR="blue">
         Johan Lemos</FONT>
     <br>
-    <p><img src="imagenes/johan.png" alt="imagen Johan" width="120px" height="120px"/>
+    <p id="johan"><img src="imagenes/johan.png" alt="imagen Johan" width="120px" height="120px"/>
         Johan es ingeniero electrónico de la universidad de envigado,
         <br>
         actualmente labora como ingeniero en el municipio de Quibdó
@@ -50,7 +61,7 @@
     <FONT FACE="arial, courier" SIZE=4 COLOR="blue">
         Juan Sebastián</FONT>
     <br>
-    <p><img src="imagenes/Juan sebastian.png" alt="imagen de Juan Sebastián" width="120px" height="120px"/> 
+    <p id="Juan"><img src="imagenes/Juan sebastian.png" alt="imagen de Juan Sebastián" width="120px" height="120px"/> 
         Juan Sebastián es ingeniero de instrumentación y control,
         <br>
         actualmente trabaja como metrólogo
