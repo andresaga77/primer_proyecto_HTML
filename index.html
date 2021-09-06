@@ -1,199 +1,26 @@
-<!DOCTYPE html> 
-<html lang="es">
-
-    <head>
-        <title>
-<<<<<<< HEAD
-            Partes Electrónicas IOT
-=======
-            
->>>>>>> eb35e8a235aebe8e3f161748e005d74bfc4eb86f
-        </title>
-
-        <meta charset="utf-8"/>
-        <link rel="shortcut icon" href="logo.png" type="image/png"/>
-
-        <style>
-
-
-html, body { min-height: 100%; }
-
-body {
-	background-color: #345;
-	background-image: linear-gradient(to bottom, #0009, transparent);
-	color: #eee;
-	font-family: 'Lato', sans-serif;
-	font-size: 72.5%;
-	padding: 0 20px;
-	box-sizing: border-box;
-}
-code {
-	background: #fff1;
-	font-family: 'Inconsolata', monospace;
-	padding: .2em .4em;
-}
-
-.content {
-	background-color: #fff;
-	border-radius: 8px;
-	box-sizing: border-box;
-	color: #666;
-	font-size: 1.6em;
-	line-height: 1.4em;
-	margin: 20px auto;
-	margin-top: 80px;
-	padding: 20px;
-	width: 100%;
-	max-width: 800px;
-}
-.content ul {
-	margin: .5em 2em;
-	padding: 0;
-}
-
-#footer {
-	background-color: #246c;
-	background-image: linear-gradient(to bottom, transparent, #0009);
-	border-top: 1px solid #fff3;
-	box-shadow: inset 0 1px 0 #fff3, 0 0 32px #000;
-	overflow: hidden;
-	padding: 8px;
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 9001;
-}
-#footer a {
-	color: #85c6f6;
-	padding: 1em 0;
-	text-decoration: none;
-}
-#footer ul {
-	display: flex;
-	list-style: none;
-	justify-content: center;
-	font-size: 2em;
-	font-weight: 300;
-}
-#footer ul li {
-	padding: 0 .5em;
-}
-
-/* Appearance */
-.links {
-	background-color: #123;
-	background-image: linear-gradient(to bottom, #0003, transparent);
-	border-bottom: 1px solid #0003;
-	box-shadow: 0 0 32px #0003;
-	font-size: 2em;
-	font-weight: 300;
-}
-.links > a {
-	color: #9ab;
-	padding: .75em;
-	text-align: center;
-	text-decoration: none;
-	transition: all .5s;
-}
-.links > a:hover {
-	background: #ffffff06;
-	color: #adf;
-}
-.links > .line {
-	background: #68a;
-	height: 1px;
-	pointer-events: none;
-}
-
-/* The Magic */
-#header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-}
-.links {
-	display: grid;
-	grid-template-columns: repeat(var(--items), 1fr);
-	position: relative;
-}
-.links > .line {
-	opacity: 0;
-	transition: all .5s;
-	position: absolute;
-	bottom: 0;
-	left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
-	width: var(--width, calc(100% / var(--items)));
-	--index: 0;
-}
-.links > a:hover ~ .line {
-	opacity: 1;
-}
-
-.links > a:nth-of-type(1):hover ~ .line { --index: 1; }
-.links > a:nth-of-type(2):hover ~ .line { --index: 2; }
-.links > a:nth-of-type(3):hover ~ .line { --index: 3; }
-.links > a:nth-of-type(4):hover ~ .line { --index: 4; }
-.links > a:nth-of-type(5):hover ~ .line { --index: 5; }
-.links > a:nth-of-type(6):hover ~ .line { --index: 6; }
-.links > a:nth-of-type(7):hover ~ .line { --index: 7; }
-.links > a:nth-of-type(8):hover ~ .line { --index: 8; }
-.links > a:nth-of-type(9):hover ~ .line { --index: 9; }
-.links > a:nth-of-type(10):hover ~ .line { --index: 10; }
-.links > a:last-of-type:hover ~ .line { --index: var(--items); }
-
-
-        </style>
-
-    </head>
-
-    <body>
-   
-    <header id="header">
-        <nav class="links" style="--items: 5;">
-            <a href="#">Inicio</a>
-            <a href="#link">Quienes somos</a>
-            <a href="./productos.html">Nuestros productos</a>
-            <a href="#">Trabaja con nosotros</a>
-            <a href="#">Contáctenos</a>
-            <span class="line"></span>
-        </nav>
-    </header>
-
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-
-  
-    <h1 style="text-align:center">VENTA DE ARTÍCULOS ELECTRÓNICOS</h1>
-    <br/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="index.css">
     
-    <a href="https://www.youtube.com/watch?v=GhN14hu6vQQ" target="_blank"> <img src="imagen_ppal.jpg" width="500px" height="320px" alt="Autor: Prueba"/></a>
-    <br/>
+</head>
+<body>
+    <nav>
+        <div class="empresa nav_item"><h1>Empresa</h1></div>
+    <div class="menu nav_item">
+        <ul class="menu_links">
+            <a href=""><li class="menu_item">Inicio</li></a>
+            <a href=""><li class="menu_item">Producto</li></a>
+            <a href=""><li class="menu_item">Contacto</li></a>
+        </ul>
+    </div>
+        <div class="social nav_item"></div>
 
-    <h2 id="link" style="text-align:center;color:#eee">¿Quienes somos?</h2>   
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quos doloremque maxime est debitis asperiores obcaecati magnam, culpa itaque. Quo tempore obcaecati reiciendis repellendus ad temporibus fuga aperiam ratione dolorum aut suscipit quaerat, placeat doloribus! Nam, quibusdam, corrupti facere eaque temporibus quidem quos sed minima quam nihil, consectetur aliquid praesentium commodi ad perspiciatis consequatur? Expedita voluptatibus rerum ab eaque omnis repellat facilis vel quae. Inventore quia esse expedita fuga consectetur modi natus, cumque vel, pariatur explicabo, consequuntur asperiores sed atque voluptatem quo dolore officiis harum vitae ducimus repudiandae laborum! Deserunt, officia omnis velit ut atque pariatur beatae cum assumenda veniam! Mollitia totam ab sint facilis repellendus debitis aspernatur odio accusamus culpa enim eaque laudantium, quas illo deserunt optio fugit architecto, reiciendis deleniti. Vero et esse sed quas, dolorum odio placeat accusantium sunt sit. Nemo facere esse nisi a modi rerum quisquam distinctio nesciunt vero amet accusamus, quis officia iste quas ullam dignissimos repellat et non veniam natus facilis aliquid praesentium? Beatae modi facere sequi animi sunt provident esse sit similique dignissimos itaque et dolore vitae sapiente harum ea nobis consectetur labore dolorum rerum dicta, obcaecati ad. Voluptates non quis excepturi pariatur veniam modi, aut dolor eius, iste sit id odit labore autem quo aliquam quod culpa facilis officia praesentium voluptate. Voluptatem facilis dolore architecto perferendis nihil vero minima sapiente soluta impedit hic recusandae quasi maiores fugit officia at temporibus doloribus iure atque, vel dolor, eveniet dicta blanditiis eligendi? Perspiciatis cupiditate quis velit aliquid qui facilis praesentium, doloribus rerum, unde in accusantium magni voluptatum neque tempore voluptatibus beatae ratione minus debitis reprehenderit temporibus dolorum delectus. Esse ex eum voluptatum inventore! Exercitationem illum reprehenderit a. Cumque ratione delectus corrupti qui quasi error fugit consectetur veniam soluta aspernatur porro quae maiores quos aliquid, enim blanditiis libero repudiandae! Officia repudiandae reprehenderit voluptatibus, incidunt dicta unde corporis nihil facilis optio quis et, quas porro adipisci ipsum doloremque molestias cupiditate nemo sed! Rerum excepturi veritatis neque porro nisi molestias! Repudiandae enim nam, quos quia aliquid cumque repellendus asperiores accusamus mollitia recusandae minus aspernatur, nulla maiores in? Laudantium nemo voluptas quae. Cum reiciendis repellendus rerum quibusdam, quisquam suscipit consectetur placeat dolores velit quia debitis! Tenetur, molestias animi architecto voluptatem dolorem veniam veritatis! Inventore alias ab iusto saepe tenetur totam vel voluptatibus mollitia nobis, atque, eaque repudiandae. Similique, delectus veniam, nesciunt laudantium veritatis fuga voluptas vel iste inventore repellendus ipsum, eveniet quia ut eligendi nemo quis impedit eius necessitatibus cupiditate. Ut dolorum natus eos facilis adipisci ipsum nesciunt, est libero, illo quia voluptatibus. Facilis quibusdam nisi in ut nulla pariatur quam, explicabo sed, facere et accusamus eius necessitatibus provident repellendus adipisci possimus magnam iusto tempore repudiandae quis. Architecto atque mollitia tempora dolores repellat! Rem, fuga! Quaerat blanditiis omnis obcaecati repellendus perferendis quod soluta impedit at aliquid eligendi repudiandae neque sed, mollitia unde optio amet nobis! Quasi, quo aperiam, perspiciatis quas iusto maiores esse natus id a excepturi voluptate reprehenderit assumenda ab. A nisi iste aliquam labore perferendis, et mollitia, alias necessitatibus aspernatur molestiae natus unde illum rem rerum autem, soluta reiciendis! Qui ab ex nesciunt laboriosam et cumque libero dolores! Quidem et aliquam illum saepe temporibus quisquam voluptatum assumenda cum sequi vel, nulla quia consequuntur ipsam perspiciatis asperiores deserunt, deleniti harum officiis repudiandae expedita quibusdam eveniet quae non! Modi accusamus impedit in nemo blanditiis illo atque magnam corrupti dolorem ex, quos minus nulla sapiente delectus quam nihil. Magni veritatis hic quod aliquam quis qui neque consequuntur consequatur eligendi corporis nobis tenetur voluptate nostrum ducimus aspernatur minima iusto, culpa numquam iure odit incidunt ipsa voluptates accusamus labore! Doloremque a nemo nesciunt voluptatem similique dolor tempore, ea ipsam ab eaque!
-    </p>
-
-    <br/>
-    <br/>
-    <br/>
-
-    <h2 style="color:#eee">¿Qué hacemos?</h2>   
-    <ol>
-        <li>Venta de equipos de IoT</li>
-        <li>Desarrollo de sitios web</li>
-        <li>Desarrollo de hardware</li>
-        <li>Asesoría técnica</li>
-    </ol>
-    <img src="motor.jpg" width="299px" height="120px" alt="Aquí va"/>
-    <a href="./productos.html"><h3>Ver productos</h3></a>
-
+    </nav>
+    
 </body>
-
 </html>
